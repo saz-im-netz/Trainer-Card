@@ -1,0 +1,102 @@
+body {
+    margin: 20px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.avatar {
+    width: 130px;
+    border: 2px solid #3f0101;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
+
+.card {
+    width: 460px;
+    height: 240px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-image: url(images/background.avif);
+    background-repeat: no-repeat;
+    color: #3f0101;
+    text-shadow: 1px 1px rgb(202, 195, 195);
+    border-bottom: 4px solid #3f0101;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top: 1px solid #3f0101;
+    border-left: 1px solid #3f0101;
+    border-right: 1px solid #3f0101;
+        
+}
+.text{
+    margin-top: -10px;
+}
+
+.team-member{
+    margin-bottom: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    width: 45px;
+    border:2px solid #3f0101;
+    border-radius: 40px;
+}
+
+#maskot{
+    font-size: larger;
+    background-color: white;
+    border: 3px solid #3f0101;
+    text-shadow: 1px 2px rgb(202, 183, 236);
+    border-radius: 40px;
+    padding: 2px 6px;
+    margin-right: 10px;
+}
+.members{
+    display: flex;
+    justify-content: space-around;
+}
+.maskot-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gengar{
+    width: 50px;
+    height: 50px;
+    border:2px solid #3f0101;
+    border-radius: 40px;
+    margin-left: 10px;
+}
+
+.copyright{
+    color:rgb(202, 195, 195);
+    text-shadow: 0 0 black;
+    font-size: 8px;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
